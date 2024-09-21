@@ -11,6 +11,8 @@ Currently, two official plugins are available:
 
 - Create vite@latest
 - Configured TailwindCss
+- Header
+- login form
 
 # Features
 
