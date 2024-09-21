@@ -13,6 +13,7 @@ Currently, two official plugins are available:
 - Configured TailwindCss
 - Header
 - login form
+- sign up form
 
 # Features
 
