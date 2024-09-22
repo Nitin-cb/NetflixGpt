@@ -12,8 +12,18 @@ Currently, two official plugins are available:
 - Create vite@latest
 - Configured TailwindCss
 - Header
+- Routing of App
 - login form
 - sign up form
+- Form validation
+- useRef Hook
+- Firebase setup
+- deploying app to production
+- create signup user account
+- Implement Signin user Api
+- Created Redux Store with userSlice
+- implemented signout
+- update profile
 
 # Features
 
