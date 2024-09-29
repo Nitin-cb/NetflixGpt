@@ -24,6 +24,12 @@ Currently, two official plugins are available:
 - Created Redux Store with userSlice
 - implemented signout
 - update profile
+- Bug fix: sign up user desplayname and profile picture update
+- BugFix: if user not logged in redirect to /browse to login page and vice versa
+- Unsubscribes to the onAuthStatechange callback
+- Add hardcode values to constants file.
+- Register TMDB API & create an app & get access token
+- get Data from TMDB now playing movies list
 
 # Features
 
