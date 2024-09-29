@@ -13,23 +13,30 @@ Currently, two official plugins are available:
 - Configured TailwindCss
 - Header
 - Routing of App
-- login form
-- sign up form
+- Login form
+- Sign up form
 - Form validation
-- useRef Hook
+- UseRef Hook
 - Firebase setup
-- deploying app to production
-- create signup user account
+- Deploying app to production
+- Create signup user account
 - Implement Signin user Api
 - Created Redux Store with userSlice
-- implemented signout
-- update profile
+- Implemented signout
+- Update profile
 - Bug fix: sign up user desplayname and profile picture update
 - BugFix: if user not logged in redirect to /browse to login page and vice versa
 - Unsubscribes to the onAuthStatechange callback
 - Add hardcode values to constants file.
 - Register TMDB API & create an app & get access token
-- get Data from TMDB now playing movies list
+- Get Data from TMDB now playing movies list
+- Custom Hook for the now playing movies
+- Update store with movies data
+- Create movislice
+- Planing for main container and secondary container
+- Fetch data for trailer video
+- Update the store with trailer video data
+- Embedded the youtube video
 
 # Features
 
