@@ -37,6 +37,12 @@ Currently, two official plugins are available:
 - Fetch data for trailer video
 - Update the store with trailer video data
 - Embedded the youtube video
+- Build secondary Component
+- Build Movie list
+- Build Movie Card
+- TMDB image cdn
+- Made Ui look better using tailwindcss
+- GPT search feature
 
 # Features
 
