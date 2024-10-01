@@ -5,7 +5,7 @@ import { useDispatch, useSelector } from 'react-redux';
 import { useEffect } from 'react';
 import { addUser, removeUser } from '../utils/userSlice';
 import { LOGO, SUPPORTED_LANG } from '../utils/constants';
-import { toggleGptSearchView } from '../utils/gptSlice';
+import { resetGptData, toggleGptSearchView } from '../utils/gptSlice';
 import { changeLanguage } from '../utils/configSlice';
 
 const Header = () => {
@@ -48,6 +48,9 @@ const Header = () => {
     return () => unSubscribe();
   }, []);
   const handleGptSearch = () => {
+    if (showGptSearch) {
+      dispatch(resetGptData()); // Clear the data when going back to home
+    }
     dispatch(toggleGptSearchView());
   };
 
