@@ -43,6 +43,12 @@ Currently, two official plugins are available:
 - TMDB image cdn
 - Made Ui look better using tailwindcss
 - GPT search feature
+- Get Gemini Api key
+- Geminei search api call
+- Fetched Movie suggetion from tmdb
+- Reused movie list componet to make movie suggetion conatiner
+- Memoization
+- Made responsive
 
 # Features
 

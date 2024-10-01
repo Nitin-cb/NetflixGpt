@@ -14,7 +14,7 @@ const MovieList = ({ title, movies }) => {
 
   return (
     <div className="px-6 text-white relative">
-      <h1 className="text-3xl font-bold py-4">{title}</h1>
+      <h1 className="text-lg md:text-3xl font-bold py-4">{title}</h1>
       <div className="flex items-center">
         {/* Left Scroll Button */}
         <button

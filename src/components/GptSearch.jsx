@@ -4,13 +4,15 @@ import GptSearrchBar from './GptSearrchBar';
 
 const GptSearch = () => {
   return (
-    <div>
-      <div className="fixed -z-40 ">
-        <img src={LOGIN_BG} alt="" />
+    <>
+      <div className="fixed -z-40 w-full h-full">
+        <img className="w-full h-full object-cover" src={LOGIN_BG} alt="" />
       </div>
-      <GptSearrchBar />
-      <GptMovieSuggestion />
-    </div>
+      <div className="">
+        <GptSearrchBar />
+        <GptMovieSuggestion />
+      </div>
+    </>
   );
 };
 
